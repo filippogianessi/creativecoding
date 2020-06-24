@@ -20,3 +20,40 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .homepage-buttons {
+    margin-top: 40px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+
+  .homepage-hero {
+    margin: 0;
+    padding: 32px 16px 40px;
+    background: var(--main-bg-color);
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .homepage-buttons {
+    margin-top: 56px;
+    margin-bottom: 64px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+
+  .homepage-hero {
+    margin: 0;
+    padding: 56px 56px 64px;
+    background: var(--main-bg-color);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
