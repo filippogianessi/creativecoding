@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  padding: 40px 56px;
+  border-bottom: 16px solid var(--main-text-color);
+  transition: all 0.25s linear;
+  color: var(--main-text-color);
+}
+
+.button:hover {
+  padding: 46px 56px 46px 32px;
+  border-bottom: 4px solid var(--main-text-color);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.link:hover {
+  text-decoration: underline;
+  text-decoration-style: solid; 
+}

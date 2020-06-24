@@ -1,0 +1,8 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  padding: 72px 10vw 80px;
+  background: white;
+  border-top: 2px solid var(--main-text-color)
+}
