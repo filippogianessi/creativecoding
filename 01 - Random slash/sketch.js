@@ -4,7 +4,7 @@ let spacing=40;
 
 
 function setup() {
-  createCanvas(1024, 768, SVG);
+  createCanvas(635, 950, SVG);
   background(0);
 }
 
