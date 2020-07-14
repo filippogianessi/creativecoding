@@ -1,3 +1,3 @@
 # creativecoding
 
-Experiments with generative design and a drawbot machine.
+Experiments with generative design and a drawbot machine :-)
