@@ -1,0 +1,7 @@
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  transform: rotate(attr(data-id));
+}
