@@ -24,19 +24,6 @@
       <h1>#03 Rotating pattern</h1>
     </div>
     <div id="demo"></div>
-    <script type="text/javascript">
-      function Generator() {
-        var random_number = Math.floor(Math.random() * 360);
-        console.log(random_number);
-        return random_number;
-      }
-      console.log(Generator());
-    </script>
-    <script type="text/javascript">
-      for(i=0; i<500; i++) {
-        var d1 = document.getElementById('demo');
-        d1.insertAdjacentHTML('beforeend', '<img src="item.svg" class="item" style="transform:rotate(' + Generator() +'deg)">');
-      }
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
