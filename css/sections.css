@@ -33,13 +33,17 @@ body {
   width: auto;
 }
 
+.backstage--content video {
+  width: auto;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .homepage-buttons {
     margin-top: 40px;
     margin-bottom: 48px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 24px;
+    grid-gap: 0;
   }
 
   .homepage-hero {
@@ -49,6 +53,9 @@ body {
   }
 
   .backstage--content img {
+    width: 100%;
+  }
+  .backstage--content video {
     width: 100%;
   }
 }
